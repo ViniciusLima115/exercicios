@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Formulario de Validacao</h1>
+    <form>
+		<input type="number" id="campo-a" required placeholder="Digite o Numero A">
+        <input type="number" id="campo-b" required placeholder="Digite o Numero B">
+        <p class="success-message"></p>
+        <p class="error-message">O Numero B deve ser maior que o numero A</p>
+        <button type="submit" id="btn-validar">Validar</button>
+	</form>
+
+    <script src="main.js"></script>
+</body>
+</html>
