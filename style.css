@@ -1,0 +1,75 @@
+/* CSS para o formulário de cadastro */
+
+/* Define fontes e cores básicas */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+  }
+  
+  /* Estiliza o cabeçalho */
+  header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+  }
+  
+  header h1 {
+    margin: 0;
+  }
+  
+  /* Estiliza o contêiner principal */
+  .container {
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px #ccc;
+    padding: 20px;
+    margin-top: 20px;
+  }
+  
+  /* Estiliza os rótulos dos campos do formulário */
+  label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  /* Estiliza os campos de entrada do formulário */
+  input[type="text"],
+  input[type="email"],
+  input[type="tel"],
+  input[type="number"] {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 3px;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+  }
+  
+  /* Estiliza o botão de envio */
+  button[type="submit"] {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    font-weight: bold;
+  }
+  
+  /* Estiliza mensagens de erro */
+  label.error {
+    color: red;
+    font-weight: normal;
+    margin-top: 5px;
+    display: inline-block;
+  }
+  
+  /* Estiliza mensagens de sucesso */
+  label.valid {
+    color: green;
+    font-weight: normal;
+    margin-top: 5px;
+    display: inline-block;
+  }
+  

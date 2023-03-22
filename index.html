@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de Cadastro</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Formulario de Cadastro</h1>
+    </header>
+    <div class="container">
+        <h2>Faca seu cadastro</h2>
+        <form id="form">
+            <label for="nomeCompleto">Nome Completo</label>
+            <input type="text" id="nomeCompleto" name="nome">
+            <label for="email">E-mail</label>
+            <input type="email" id="email" name="email">
+            <label for="telefone">Telefone</label>
+            <input type="tel" id="telefone" name="telefone">
+            <label for="cpf">CPF</label>
+            <input type="number" id="cpf" name="cpf">
+            <label for="enderecoCompleto">Endereco Completo</label>
+            <input type="text" id="enderecoCompleto" name="enderecoCompleto">
+            <label for="cep">CEP</label>
+            <input type="number" id="cep" name="cep">
+            <button type="submit">Cadastrar</button>
+        </form>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+    <script src="./Plugins/jquery.validate.min.js"></script>
+    <script src="/Plugins/messages_pt_PT.min.js"></script>
+    <script src="./Plugins/jquery.mask.min.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>
