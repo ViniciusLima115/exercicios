@@ -4,11 +4,11 @@ $(document).ready(function(){
         placeholder: '(XX)XXXXX-XXXX'
     })
 
-    $('#cpf').mask('00000000000',{
+    $('#cpf').mask('000.000.000-00',{
         placeholder:'XXX.XXX.XXX-XX'
     })
 
-    $('#cep').mask('00000000',{
+    $('#cep').mask('00000-000',{
         placeholder:'XXXXX-XXX'
     })
 
