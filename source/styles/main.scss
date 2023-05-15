@@ -1,0 +1,52 @@
+@use 'variaveis';
+
+
+body {
+    font-family: variaveis.$font-family;
+}
+
+.container {
+    width: 300px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: variaveis.$background-color;
+    border: 1px solid variaveis.$secondary-color;
+    border-radius: variaveis.$border-radius;
+}
+
+h1 {
+    text-align: center;
+}
+
+.input-group {
+    margin-bottom: 10px;
+
+    label {
+        display: block;
+        margin-bottom: 5px;
+    }
+
+    input, select {
+        width: 100%;
+        padding: 5px;
+        border: 1px solid variaveis.$secondary-color;
+        border-radius: variaveis.$border-radius;
+    }
+
+    button {
+        width: 100%;
+        padding: 8px;
+        background-color: variaveis.$primary-color;
+        color: #fff;
+        border: none;
+        border-radius: variaveis.$border-radius;
+        cursor: pointer;
+    }
+
+}
+
+.resultado {
+    font-weight: bold;
+    text-align: center;
+    margin-top: 10px;
+}
